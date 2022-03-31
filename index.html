@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>To do List</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/5cd688c4de.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="theme dark-color" id="themeBtnContainer"><i class="fas fa-moon dark" id="themeButton"></i></div>
+		<div class="wrapper dark-text">
+			<h1 class="title darkTitle" id="title">To Do List</h1>
+			<form>
+				<input type="text" id="textInput" class="inputDark" autocomplete="off">
+				<button class="add-button btnDark" id="addButton">Add</button>
+			</form>
+			<ul class="task-list dark-list" id="taskList">
+				<p id="emptyMessage">You don't have any task to do</p>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
